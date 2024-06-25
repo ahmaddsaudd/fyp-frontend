@@ -1,0 +1,86 @@
+/* General Navbar styles */
+.navbar {
+  z-index: 1000; /* Ensure it is above other elements */
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-container {
+  margin-top: 50px; /* Adjust based on navbar height */
+  padding-top: 2rem; /* Add padding to create spacing */
+}
+
+/* Live indicator styles */
+.live-indicator {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* To align it to the right side */
+}
+
+/* Red light styles */
+.red-light {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+  animation: glitter 1.5s infinite;
+}
+
+/* Live text styles */
+.live-text {
+  font-weight: bold;
+  color: black;
+  font-size: 2rem;
+}
+
+/* Ensure the input field and cards are centered and styled appropriately */
+.container {
+  margin-top: 70px; /* Adjust to place below the navbar */
+}
+
+input.form-control {
+  text-align: center;
+}
+
+/* Center the Home component */
+.container {
+  margin-top: 50px; /* Adjust if necessary */
+}
+
+.navbar {
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+/* Make the input field smaller */
+.form-control-sm {
+  height: auto;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem; /* Adjust font size as needed */
+}
+
+.card {
+  margin: auto;
+}
+
+/* Style the video to fill the entire card */
+.card-video {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-modal-dialog {
+  max-width: 80%; /* Adjust the width as needed */
+  width: 65%; /* Adjust the width as needed */
+}
+
+.custom-modal-content {
+  height: 80vh; /* Adjust the height as needed */
+}
+
+.custom-modal-body {
+  height: calc(100% - 60px - 60px); /* Adjust the height based on modal-header and modal-footer heights */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
